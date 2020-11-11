@@ -379,6 +379,10 @@ main {
   color: var(--text-primary) !important;
 }
 
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
 a.text-primary:hover {
   color: var(--text-primary) !important;
   text-decoration: none;
@@ -436,6 +440,11 @@ a.text-primary:hover {
 
 .hero__search-icon {
   color: var(--hero__search-input-bg-color) !important;
+}
+
+.why-us ul {
+  padding: 0;
+  list-style-type: none;
 }
 
 @media screen(min: 1280px) {
